@@ -6,17 +6,31 @@ TestimonialOne, ChooseOne, BlogOne, CTAOne, } from "../components";
 
 </script>
 <template>
-    <HeaderTop/>
+
+    <!----footer de arriva-->
+    <!---HeaderTop/>--->
+
+     <!----nav menu-->
     <HeaderOne/>
+     <!----fondo -->
     <HeroOne/>
+
+   <!----telefono -->
     <AboutOne/>
+    <!----caja -->
     <ServicesOne/>
+
+     <!--mano con telefono -->
     <FeatureOne/>
+
+   <!----[pequeno footer]-->
     <CounterOne/>
+    <!----registro-->
     <ProjectOne/>
+
     <TestimonialOne/>
-    <ChooseOne/>
+    <!----ChooseOne/>
     <BlogOne/>
-    <CTAOne/>
+    <CTAOne/> --->
     
 </template>

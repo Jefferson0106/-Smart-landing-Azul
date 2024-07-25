@@ -75,6 +75,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	font-smooth: antialiased;
+	
 }
 
 body {
@@ -105,6 +106,7 @@ h6 {
 
 h1 {
 	font-size: 70px;
+	color: 	#1E90FF;
 }
 
 h2 {
@@ -411,22 +413,23 @@ hr {
 	color: #fff;
 }
 
-/*Button Style */
+/*Button login */
 
 .main-btn {
-	display: inline-block;
-	background: #F35C27;
-	color: #fff;
-	font-size: 16px;
-	font-weight: 500;
-	letter-spacing: 1px;
-	text-transform: capitalize;
-	padding: 16px 40px;
-	text-align: center;
-	vertical-align: middle;
-	cursor: pointer;
-	-webkit-transition: .3s;
-	transition: .3s;
+    display: inline-block;
+    background: #1E90FF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    padding: 16px 40px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin-right: 15px; /* Añade espacio a la derecha de cada botón */
 }
 
 .main-btn.btn-2 {
@@ -772,7 +775,9 @@ textarea:focus::-webkit-input-placeholder {
 ============== */
 
 .logo {
-    height: 90px;
+	width: 60%;
+    height: 60%;
+	
 }
 
 .header-area .logo img {
@@ -808,7 +813,12 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .header-area .main-menu .navbar-nav .nav-link.active {
-	color: #F35C27;
+	color:  rgb(7, 0, 0); 
+	border-bottom: 5px solid 	#1E90FF;
+}
+.header-area .main-menu li.nav-item > a {
+    font-weight: bold; 
+	text-underline-offset: 1px;
 }
 
 #header-2.header-area .main-menu .navbar-nav .nav-link.active {
@@ -820,8 +830,11 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .header-area .main-menu li.nav-item:hover > a {
-	color: #777;
+	color: rgb(7, 0, 0);
+	border-bottom: 5px solid 	#1E90FF;
+	text-underline-offset: 2px;
 }
+
 
 .header-area .header-btn.main-btn {
 	padding: 16px 30px;
@@ -1042,27 +1055,27 @@ textarea:focus::-webkit-input-placeholder {
 ==================*/
 
 .single-slide-item {
-	background-image: url(../img/slider/slide-1.jpg);
+  background-image: url(../img/pixele.png);
+  background-color: #25283a;
 }
-
 .hero-area-bg-2 {
-	background-image: url(../img/slider/slide-2.jpg);
+	background-image: url(../img/fondo.png);
 }
 
 #home2 .single-slide-item {
-	background-image: url(../img/slider/slide-3.jpg);
+	background-image: url(../img/pixele.png)
 }
 
 #home2 .hero-area-bg-2 {
-	background-image: url(../img/slider/slide-4.jpg);
+	background-image: url(../img/pixele.png);
 }
 
 #home3 .single-slide-item {
-	background-image: url(../img/slider/slide-5.png);
+	background-image: url(../img/pixele.png);
 }
 
 #home3 .hero-area-bg-2 {
-	background-image: url(../img/slider/slide-6.jpg);
+	background-image: url(../img/pixele.png)
 }
 
 .single-slide-item {
@@ -1403,7 +1416,7 @@ single-service-area.active {
 ============== */
 
 .achievement-area {
-	background-image: url(../img/achievement.jpg);
+	background-image: url(../img/fondo-footer.png);
 	height: 300px;
 	background-size: cover;
 	background-position: center;
@@ -1459,11 +1472,11 @@ single-service-area.active {
 ============== */
 
 .project-bg {
-	background-image: url(../img/project/project-1-1.jpg);
+	background-image: url(../img/fondo-telefono.png);
 }
 
 .project-bg-2 {
-	background-image: url(../img/project/project-1-2.jpg);
+	background-image: url(../img/fondo-telefono.png);
 }
 
 .project-bg-3 {
@@ -1680,7 +1693,7 @@ single-service-area.active {
 ============== */
 
 .chooseus-bg {
-	background-image: url(../img/choose-us-bg.jpg);
+	background-image: url(../img/pixele.png);
 }
 
 .chooseus-bg {
@@ -1867,7 +1880,7 @@ p.blog-meta i:before {
 ============== */
 
 .cta-area {
-	background-image: url(../img/contact-bg.jpg);
+	background-image: url(../img/pixele.png);
 	background-attachment: fixed;
 	height: 300px;
 	display: flex;
@@ -1920,7 +1933,7 @@ p.blog-meta i:before {
 
 
 .footer-area {
-	background: #051232;
+	background: #1E90FF;
 	color: #fff;
 }
 
@@ -1945,14 +1958,14 @@ p.blog-meta i:before {
 }
 
 .footer-up ul li a span {
-	color: #F35C27;
+	color: #f6f6f6;
 	font-size: 18px;
 	font-weight: 600;
 	margin-right: 10px;
 }
 
 .footer-area ul li a:hover {
-	color: #F35C27;
+	color: #f6f6f6;
 }
 
 .subscribe-form button {
@@ -1977,7 +1990,7 @@ p.blog-meta i:before {
 }
 
 .subscribe-form input::placeholder {
-	color: #797A7E;
+	color: #eee;
 	font-size: 14px;
 }
 
@@ -1991,7 +2004,8 @@ p.blog-meta i:before {
 }
 
 .footer-up .social-area a {
-    border: 1px solid #122450;
+    background-color: #F8F9FB ;
+    border: 1px solid #F8F9FB;
     padding: 10px;
     margin-right: 10px;
 }
@@ -2001,13 +2015,25 @@ p.blog-meta i:before {
 }
 
 .footer-up .social-area i {
-	color: #eee;
+	color: #1E90FF;
 	font-size: 21px;
 }
 
 .footer-bottom {
 	padding: 15px 0;
-	background: #061129;
+	background: #1E90FF;
+	position: relative;
+}
+.footer-bottom::before {
+    content: "";
+    display: block;
+    width: 900px; /* Ajusta este valor para cambiar el largo del borde */
+    height: 5px; /* Grosor del borde */
+    background: #FFFFFF; /* Color del borde */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .footer-bottom p {
@@ -2029,7 +2055,7 @@ p.privacy {
 
 
 .info-bg {
-	background-image: url(../img/info/info-bg.jpg);
+	background-image: url(../img/pixele.png);
 }
 
 .info-area {
@@ -2112,7 +2138,7 @@ p.privacy {
 ======================== */
 
 .service-bg {
-	background-image: url(../img/service/1.jpg);
+	background-image: url(../img/pixele.png);
 	height: 270px;
 }
 
@@ -2718,7 +2744,7 @@ ul.team-social li a {
 ==============*/
 
 .skill-bg {
-	background-image: url(../img/skill-bg.jpg);
+	background-image: url(../img/pixele.png);
 }
 
 .skill-bg {
@@ -2882,7 +2908,6 @@ ul.team-social li a {
 	-webkit-animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
 	animation: btnIconRipple 2s cubic-bezier(0.23, 1, 0.32, 1) both infinite;
 }
-
 
 /*Process Section # 02 */
 
@@ -3061,7 +3086,7 @@ ul.team-social li a {
 ============== */
 
 .breadcroumb-area {
-	background-image: url(../img/bread-bg.jpg);
+	background-image: url(../img/pixele.png);
 }
 
 .breadcroumb-area {
@@ -3612,7 +3637,7 @@ ul.port-menu li.active {
 }
 
 .single-portfolio-item {
-	background-image: url(../img/portfolio/1.jpg);
+	background-image: url(../img/pixele.png);
 }
 
 .port-bg-2 {
@@ -4060,7 +4085,7 @@ ul.port-menu.recent {
 ============== */
 
 .contact-us-area {
-	background-image: url(../img/choose-us-bg-2.jpg);
+	background-image: url(../img/pixele.png);
 	background-size: cover;
 	height: 500px;
 	position: relative;

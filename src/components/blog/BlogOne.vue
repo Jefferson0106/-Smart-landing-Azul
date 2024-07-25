@@ -14,6 +14,7 @@ onMounted(async () => {
 </script>
 
 <template>
+		<div class="hero-area-bg-2">
     <div class="blog-area gray-bg section-padding">
  		<div class="container">
  			<div class="row">
@@ -50,4 +51,5 @@ onMounted(async () => {
  			</div>
  		</div>
  	</div>
+	</div>
 </template>

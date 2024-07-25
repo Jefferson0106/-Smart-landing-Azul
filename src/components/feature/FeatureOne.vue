@@ -15,32 +15,70 @@ onMounted(async () => {
 </script>
 
 <template>
-    <div class="feature-area section-padding">
+	<div>
+    <div class="about-area section-padding">
  		<div class="container">
- 			<div class="row">
+ 			<div class="row align-items-center">
  				<div class="col-lg-6 col-md-12 col-sm-12">
- 					<div class="section-title">
- 						<h6>Features</h6>
- 						<h2> We manage & organized Quality <b>Industrial</b> Project</h2>
- 					</div>
- 					<div class="single-feature-item"
-					v-for="feature in features.slice(0,3)" :key="feature.id"
-					>
- 						<div class="feature-icon">
- 							<i :class="feature.icon"></i>
- 						</div>
- 						<div class="feature-content">
- 							<h5>{{ feature.title }}</h5>
- 							<p>{{ feature.content }}</p>
- 						</div>
- 					</div> 					
+					<div class="about-img-wrap">
+                    <div class="image-one wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <img class="telefono" src="/assets/img/mano-telefono.png" alt="">
+                    </div>                        
+                    <div class="image-two wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <!---img src="/assets/img/about/about-page-2.jpg" alt=""> --->
+                    </div>                                            
+                </div> 					
  				</div>
  				<div class="col-lg-6 col-md-12 col-sm-12">
- 					<div class="feature-image">
- 						<img src="/assets/img/feature/feature.png" alt="">
- 					</div>
+ 					<div>
+ 						<div class="section-title">
+ 							
+ 							<h2 class="h2-titulo"><span class="punto"></span>Automatiza procesos de pagos </h2>
+ 						</div>
+ 						<p>We are build construction site lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea enim et, similique minus soluta ipsum dolor sit, amet .</p>
+ 					
+</div>
  				</div>
+
  			</div>
  		</div>
  	</div>
+	</div>
 </template>
+
+<style scoped>
+.h1-texto{
+	text-align: center;
+	position: relative;
+	top: -300px;
+	margin: 30px;
+}
+.telefono{
+	position: relative;
+	top: -300px;
+	width: 100%;
+}
+.h2-titulo{
+	position: relative;
+	top: -300px;
+	color: #1e90ff;
+	display: flex;
+        align-items: center;
+		font-size: 30px;
+	margin: 1px;
+}
+.punto {
+        width: 30px;
+        height: 20px;
+        background-color: #1e90ff;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+	.section-title h2 {
+		display: inline;
+	}
+p{
+	position: relative;
+	top: -280px;
+}
+</style>

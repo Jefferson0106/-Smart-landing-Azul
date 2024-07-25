@@ -11,37 +11,80 @@ onMounted(async () => {
 
 
 </script>
-
 <template>
-    <div class="project-area section-padding">
- 		<div class="container">
- 			<div class="offset-lg-2 col-lg-8 text-center">
- 				<div class="section-title">
- 					<h6>Recent Project</h6>
- 					<h2>Brilliant <b>Ideas</b> With
- 						<br>Excellent <b>Work </b></h2>
- 					<p>Industrial equipment modern technique sit amet, consectetur adipisicing elit. <br> Repellendus laboriosam omnis cum.</p>
- 				</div>
- 			</div>
- 			<div class="row mt-60">
- 				<div class="col-lg-4 col-md-6 col-12"
-				 v-for="(project, i) in projects" :key="project.id"
-				>
- 					<div class="single-project-item bg-cover"
-					 :class="i === 0 ? 'project-bg' : `project-bg-${i + 1}`"
-					>
- 						<div class="project-inner">
- 							<router-link :to="{name:'project-details'}" class="project-icon">
- 								<i class="las la-plus"></i>
- 							</router-link>
- 							<div class="hover-info">
- 								<h6>{{ project.tag }}</h6>
- 								<h4>{{ project.title }}</h4>
- 							</div>
- 						</div>
- 					</div>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
+		<div class="single-slide-item">
+		<h2 class="title">¡Regístrate ahora y dale un nuevo enfoque a tu negocio!</h2>
+        <form class="form-overlay">
+			<div class="kimber">
+				<input type="text" id="name" name="name" placeholder="Nombre completo">
+				<input type="email" id="email" name="email" placeholder="Correo electrónico"><br><br>
+                <input type="text" id="phone" name="phone" placeholder="Teléfono"><br><br>
+                <input type="text" id="company" name="company" placeholder="Empresa"><br><br>
+                <textarea id="message" name="message" placeholder="Mensaje [opcional]"></textarea><br><br>
+                <button type="button" class="azul">Comienza Ahora</button>
+			</div>
+        </form>
+    </div>
 </template>
+
+
+<style scoped>
+.form-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #FFFFFF; /* Fondo semitransparente */
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%; /* Ajusta el ancho según sea necesario */
+            box-shadow: 0 4px 8px black;
+        }
+
+        .form-overlay h2 {
+            text-align: center;
+            color: #007BFF; /* Color del texto del encabezado */
+        }
+
+        .form-overlay label {
+            display: block;
+            margin-bottom: 5px;
+            color: black;
+        }
+
+        .form-overlay input[type="text"],
+        .form-overlay input[type="email"],
+        .form-overlay textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: black; 
+        }
+.azul{
+	      width: 30%;
+            padding: 10px;
+			top: 10px;
+            background-color: #FFFFFF ;
+            color: black;
+			border: 1px solid #1e90ff;
+            border-radius: 5px;
+            cursor: pointer;
+			margin: 0 auto; 
+  display: block;
+}
+
+.title {
+	text-align: center;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #FFFFFF; 
+            background-color: transparent;
+            padding: 5px;
+            border-radius: 5px;
+            white-space: nowrap; 
+        }
+
+</style>

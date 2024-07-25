@@ -59,41 +59,80 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="homepage-slides owl-carousel">
- 		<div class="single-slide-item">
- 			<div class="overlay"></div>
+    <div>
+ 		<!----div class="hero-area-bg-2">
+ 			<div ></div>
  			<div class="hero-area-content">
  				<div class="container">
  					<div class="row justify-content-center">
  						<div class="col-lg-12 wow fadeInUp animated" data-wow-delay=".2s">
  							<div class="section-title">
- 								<h6 class="text-white">We Build only big things</h6>
- 								<h1>We are leader<br> Industrial Business</h1>
- 								<p> Industrial Revolution, in modern history, the process of change from an agrarian <br>and handicraft economy to one dominated by industry and machine manufacturing.</p>
+								<img class="robot-logo" src="/assets/img/robot-flotante.png" alt="">
+ 								<h1 class="h1-azul">IMPULSA TUS VENTAS<br></h1>
+								<h3 class="h3-negro">Lleva tu negocios al siguiente nivel</h3>
+ 								<p class="p-negro"> Industrial Revolution, in modern history, the process of change from an agrarian <br>and handicraft economy to one dominated by industry and machine manufacturing.</p>
+								 <button  class="botom-azul">Registrate</button>
  							</div>
- 							<router-link :to="{name:'about'}" class="main-btn">Learn More</router-link>
+ 							
  						</div>
  					</div>
  				</div>
  			</div>
- 		</div>
+ 		</div> ---->
 
  		<div class="single-slide-item hero-area-bg-2">
- 			<div class="overlay"></div>
+ 			<div></div>
  			<div class="hero-area-content">
  				<div class="container">
  					<div class="row justify-content-center">
  						<div class="col-lg-12 wow fadeInUp animated" data-wow-delay=".2s">
  							<div class="section-title">
- 								<h6 class="text-white">We provide best satisfied work</h6>
- 								<h1>We turn vision<br> Factory Solutions</h1>
- 								<p> Industrial Revolution, in modern history, the process of change from an agrarian <br>and handicraft economy to one dominated by industry and machine manufacturing.</p>
+								<img class="robot-logo" src="/assets/img/robot-flotante.png" alt="">
+								<h1 class="h1-azul">IMPULSA TUS VENTAS<br></h1>
+								<h3 class="h3-negro">Lleva tu negocios al siguiente nivel</h3>
+								<p class="p-negro"> Industrial Revolution, in modern history, the process of change from an agrarian <br>and handicraft economy to one dominated by industry and machine manufacturing.</p>
  							</div>
- 							<router-link :to="{name:'about'}" class="main-btn">Learn More</router-link>
+							 <button  class="botom-azul">Registrate</button>
  						</div>
  					</div>
  				</div>
  			</div>
- 		</div>
+ 		</div> 
  	</div>
 </template>
+
+<style scoped>
+.h1-azul{
+	font-size: 60px;
+	color: 	#1E90FF;
+	top: -120px;
+    right: 50px; /* Ajusta este valor para mover la imagen más a la derecha */
+}
+.robot-logo {
+    position: absolute;
+    top: -100px;
+    right: -30px; /* Ajusta este valor para mover la imagen más a la derecha */
+    width: 40%;
+}
+.h3-negro{
+	color: #000;
+	top: -150px;
+    right: 50px; /* Ajusta este valor para mover la imagen más a la derecha */
+}
+.p-negro{
+	color: #000;
+	top: -120px;
+    right: 50px; /* Ajusta este valor para mover la imagen más a la derecha */
+}
+.botom-azul{
+	width: 15%;
+  background-color: white;
+  color: black;
+  border: 2px solid #1e90ff;;
+  padding: 10px 20px; /* Ajusta el tamaño del botón */
+  font-size: 16px; /* Ajusta el tamaño del texto */
+  border-radius: 5px; /* Opcional: para bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+</style>
