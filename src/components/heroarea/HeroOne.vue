@@ -102,7 +102,53 @@ onMounted(() => {
 </template>
 
 <style scoped>
-.h1-azul{
+  @media (max-width: 767px) {
+            .h1-azul {
+                font-size: 30px;
+				color: 	#1E90FF;
+				top: -170px;
+				right: 80px; 
+                /* Otros estilos específicos para teléfonos */
+            }
+			.robot-logo {
+    position: absolute;
+    top: -170px;
+    right: -10px; /* Ajusta este valor para mover la imagen más a la derecha */
+    width: 30%;
+}
+.h3-negro{
+	color: #000;
+	top: -200px;
+    right: 70px; /* Ajusta este valor para mover la imagen más a la derecha */
+}
+.p-negro{
+	color: #000;
+	top: -150px;
+    right: 50px; /* Ajusta este valor para mover la imagen más a la derecha */
+}
+.botom-azul{
+	width: 40%;
+  background-color: white;
+  color: black;
+  border: 2px solid #1e90ff;;
+  padding: 10px 20px; /* Ajusta el tamaño del botón */
+  font-size: 16px; /* Ajusta el tamaño del texto */
+  border-radius: 5px; /* Opcional: para bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+		}
+
+
+
+
+
+
+		@media (min-width: 768px) {
+            .h1-azul {
+                font-size: 60px;
+                /* Otros estilos específicos para computadoras */
+            }
+            .h1-azul{
 	font-size: 60px;
 	color: 	#1E90FF;
 	top: -120px;
@@ -134,5 +180,7 @@ onMounted(() => {
   border-radius: 5px; /* Opcional: para bordes redondeados */
   cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
+
+        }
 
 </style>

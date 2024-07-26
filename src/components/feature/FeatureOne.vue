@@ -45,9 +45,33 @@ onMounted(async () => {
  	</div>
 	</div>
 </template>
-
 <style scoped>
-.h1-texto{
+@media (max-width: 767px) {
+.telefono{
+	width: 80%;
+}
+.h2-titulo{
+	color: #1e90ff;
+	display: flex;
+        align-items: center;
+		font-size: 30px;
+	margin: 1px;
+}
+.punto {
+        width: 30px;
+        height: 20px;
+        background-color: #1e90ff;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+	.section-title h2 {
+		display: inline;
+	}
+        }
+
+
+		@media (min-width: 768px) {
+			.h1-texto{
 	text-align: center;
 	position: relative;
 	top: -300px;
@@ -81,4 +105,5 @@ p{
 	position: relative;
 	top: -280px;
 }
+        }
 </style>

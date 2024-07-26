@@ -84,7 +84,133 @@ onUpdated(() => {
   </template>
   
   <style scoped>
-  .robo3{
+@media (max-width: 767px) {
+	.robo3{
+	width: 40%;
+	position: relative;
+            left: -100px; 
+            top: 10px;  
+			margin: 20px;
+        }
+.faq{
+	position: relative;
+            left: -160px; 
+            top: 40px;  
+			margin: 20px;
+			color: #FFFFFF;
+}
+.faque{
+	position: relative;
+            left: -70px; 
+            top: 20px;  
+			margin: 50px;
+			color: #FFFFFF;
+}
+.mensaje3{
+	width: 30%;
+	position: relative;
+            left: 130px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -450px;  /* Ajusta este valor para mover la imagen verticalmente */
+			margin: 50px;
+}
+.mensaje4{
+	width: 30%;
+	position: relative;
+	left: 130px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -640px;  /* Ajusta este valor para mover la imagen verticalmente */
+			margin: 50px;
+}
+.mensaje5{
+	width: 30%;
+	position: relative;
+            left: 670px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -1020px;  /* Ajusta este valor para mover la imagen verticalmente */
+			margin: 50px;
+}.mensaje6{
+	width: 30%;
+	position: relative;
+            left: 700px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -1360px;  /* Ajusta este valor para mover la imagen verticalmente */
+			margin: 30px;
+}
+.mensaje7{
+	width: 30%;
+	position: relative;
+            left: 430px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -190px;  /* Ajusta este valor para mover la imagen verticalmente */
+			
+}
+.texto {
+            position: relative;
+			left: 800px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -650px;  /* Ajusta este valor para mover la imagen verticalmente */
+            color: black;
+        }
+.texto1{
+	position: relative;
+			left: 800px; 
+            top: -970px; 
+            color: black;
+}
+.texto2{
+	position: relative;
+			left: 810px; 
+            top: -1330px; 
+            color: black;
+}
+.texto3{
+	position: relative;
+			left: 800px; 
+            top: -1650px; 
+            color: black;
+}
+.texto4{
+	position: relative;
+			left: 100px; 
+            top: -1999px; 
+            color: brown;
+}
+		.signo {
+            position: absolute;
+            top: 8%;
+            left: 78%;/* Ajusta esta distancia según sea necesario */
+            transform: translate(-50%, -50%);
+            font-size: 40px; /* Ajusta el tamaño del signo según sea necesario */
+            color: #1E90FF;
+        }
+		.signo1{
+			position: absolute;
+            top: 16%;
+            left: 78%;/* Ajusta esta distancia según sea necesario */
+            transform: translate(-50%, -50%);
+            font-size: 40px; /* Ajusta el tamaño del signo según sea necesario */
+            color: #1E90FF;
+		}
+		.signo2{
+			position: absolute;
+            top: 23%;
+            left: 78%;/* Ajusta esta distancia según sea necesario */
+            transform: translate(-50%, -50%);
+            font-size: 40px; /* Ajusta el tamaño del signo según sea necesario */
+            color: #1E90FF;
+		}
+		.signo3{
+			position: absolute;
+            top: 30%;
+            left: 78%;/* Ajusta esta distancia según sea necesario */
+            transform: translate(-50%, -50%);
+            font-size: 40px; /* Ajusta el tamaño del signo según sea necesario */
+            color: #1E90FF;
+		}
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+	.robo3{
 	width: 40%;
 	position: relative;
             left: 10px; 
@@ -201,4 +327,7 @@ onUpdated(() => {
             font-size: 40px; /* Ajusta el tamaño del signo según sea necesario */
             color: #1E90FF;
 		}
+}
+
+ 
 	</style>

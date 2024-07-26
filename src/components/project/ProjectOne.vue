@@ -13,7 +13,8 @@ onMounted(async () => {
 </script>
 <template>
 		<div class="single-slide-item">
-		<h2 class="title">¡Regístrate ahora y dale un nuevo enfoque a tu negocio!</h2>
+		<!---h2 class="title">¡Regístrate ahora y dale un nuevo enfoque a tu negocio!</h2> ------>
+
         <form class="form-overlay">
 			<div class="kimber">
 				<input type="text" id="name" name="name" placeholder="Nombre completo">
@@ -29,9 +30,82 @@ onMounted(async () => {
 
 
 <style scoped>
-.form-overlay {
+
+@media (max-width: 767px) {
+    .form-overlay{ 
+        position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        background-color: #FFFFFF; /* Fondo semitransparente */
+            padding: 10px;
+            border-radius: 1px;
+            width: 80%; /* Ajusta el ancho según sea necesario */
+            box-shadow: 0 4px 8px black;
+    }
+    
+
+   /* Estilo para los campos de entrada, elementos select y áreas de texto */
+input[type="text"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Estilo para las etiquetas que se muestran junto a los campos */
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+/* Estilo para el botón de envío */
+input[type="submit"] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+/* Estilo para el contenedor del formulario */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Columna flotante para las etiquetas: ancho del 25% */
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+/* Columna flotante para los campos de entrada: ancho del 75% */
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Limpieza de flotantes después de las columnas */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+        }
+
+
+        @media (min-width: 768px) {
+            .form-overlay {
             position: absolute;
-            top: 50%;
+            top: 35%;
             left: 50%;
             transform: translate(-50%, -50%);
             background-color: #FFFFFF; /* Fondo semitransparente */
@@ -75,7 +149,7 @@ onMounted(async () => {
   display: block;
 }
 
-.title {
+/*.title {
 	text-align: center;
             top: -50px;
             left: 50%;
@@ -85,6 +159,7 @@ onMounted(async () => {
             padding: 5px;
             border-radius: 5px;
             white-space: nowrap; 
-        }
+        } */
 
+        }
 </style>
