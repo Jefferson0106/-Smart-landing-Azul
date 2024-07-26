@@ -7,6 +7,24 @@
 </template>
 
 <style scoped>
+
+@media (max-width: 767px) {
+    .container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 10px; /* Ajusta la altura según sea necesario */
+}
+
+.copyright-line {
+    text-align: center; 
+	color: #FFFFFF;/* Asegura que el texto esté centrado */
+}
+
+
+
+@media (min-width: 768px) {
+}
 .container {
     display: flex;
     justify-content: center; /* Centra horizontalmente */
@@ -17,5 +35,6 @@
 .copyright-line {
     text-align: center; 
 	color: #FFFFFF;/* Asegura que el texto esté centrado */
+}
 }
 </style>

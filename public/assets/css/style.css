@@ -86,7 +86,7 @@ body {
 	position: relative;
 	z-index: 1;
 	background: #fff;
-	color: #030E2C;
+	color: #1e90ff;
 	overflow-x: hidden;
 }
 
@@ -121,7 +121,7 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 	font-family: "Poppins", serif;
-	color: #002c42;
+	color: #1E90FF;
 	font-size: 15px;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
@@ -823,11 +823,11 @@ textarea:focus::-webkit-input-placeholder {
 	}
 	
 	#header-2.header-area .main-menu .navbar-nav .nav-link.active {
-		color: #F35C27;
+		color: #1E90FF;
 	}
 	
 	#header-3.header-area .main-menu .navbar-nav .nav-link.active {
-		color: #F35C27;
+		color: #1E90FF;
 	}
 	
 	.header-area .main-menu li.nav-item:hover > a {
@@ -1058,19 +1058,19 @@ textarea:focus::-webkit-input-placeholder {
 	==================*/
 	
 	.single-slide-item {
-	  background-image: url(../img/pixele.png);
-	  background-color: #25283a;
+	  background-image: url(../img/ouxee.png);
+	  background-color: #1E90FF;
 	}
 	.hero-area-bg-2 {
 		background-image: url(../img/fondo.png);
 	}
 	
 	#home2 .single-slide-item {
-		background-image: url(../img/pixele.png)
+		background-image: url(../img/ouxee.png)
 	}
 	
 	#home2 .hero-area-bg-2 {
-		background-image: url(../img/pixele.png);
+		background-image: url(../img/ouxee.png);
 	}
 	
 	#home3 .single-slide-item {
@@ -4481,8 +4481,7 @@ textarea:focus::-webkit-input-placeholder {
 ==================*/
 
 .single-slide-item {
-  background-image: url(../img/pixele.png);
-  background-color: #25283a;
+  background-image: url(../img/pixele.png); 
 }
 .hero-area-bg-2 {
 	background-image: url(../img/fondo.png);
@@ -4507,7 +4506,7 @@ textarea:focus::-webkit-input-placeholder {
 .single-slide-item {
 	background-size: cover;
 	background-position: center;
-	background-color: #ddd;
+	background-color: #1e90ff;
 	color: #fff;
 	width: 100%;
 	height: 700px;
@@ -7159,7 +7158,7 @@ ul.port-menu li.active {
 }
 
 .single-portfolio-item .details {
-	background: #f35c27de;
+	background: #1E90FF;
 	width: 100%;
 	height: 100%;
 	padding: 50px 35px;
@@ -7454,7 +7453,7 @@ ul.port-menu.recent {
 	display: block;
 	text-decoration: none;
 	padding: 12px;
-	color: #191919;
+	color: #1E90FF;
 }
 
 @media (max-width: 575px) {
@@ -7480,7 +7479,7 @@ ul.port-menu.recent {
 }
 
 .question-section {
-	background: #F7F7F7;
+	background: #1E90FF;
 	padding: 30px;
 }
 
@@ -7491,7 +7490,7 @@ ul.port-menu.recent {
 .question-section input,
 .question-section textarea {
 	background: #fff;
-	color: #191919;
+	color: #1E90FF;
 	border: none;
 }
 
@@ -7511,7 +7510,7 @@ ul.port-menu.recent {
 ============== */
 
 .contact-us-area {
-	background-image: url(../img/pixele.png);
+	background-image: url(../img/ouxee.png);
 	background-size: cover;
 	height: 500px;
 	position: relative;
@@ -7553,7 +7552,7 @@ ul.port-menu.recent {
 
 #contact-us .info-i i:before {
 	font-size: 50px;
-	color: #F35C27;
+	color: #1E90FF;
 }
 
 #contact-us .contact-form .main-btn {

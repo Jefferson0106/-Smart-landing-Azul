@@ -104,27 +104,28 @@ onMounted(() => {
 <style scoped>
   @media (max-width: 767px) {
             .h1-azul {
-                font-size: 30px;
+                font-size: 27px;
 				color: 	#1E90FF;
-				top: -170px;
-				right: 80px; 
+				top: -220px;
+				right: 50px; 
                 /* Otros estilos específicos para teléfonos */
             }
 			.robot-logo {
     position: absolute;
-    top: -170px;
+    top: -190px;
     right: -10px; /* Ajusta este valor para mover la imagen más a la derecha */
-    width: 30%;
+    width: 34%;
 }
 .h3-negro{
+	font-size: 15px;
 	color: #000;
-	top: -200px;
-    right: 70px; /* Ajusta este valor para mover la imagen más a la derecha */
+	top: -230px;
+    right: 60px; /* Ajusta este valor para mover la imagen más a la derecha */
 }
 .p-negro{
 	color: #000;
 	top: -150px;
-    right: 50px; /* Ajusta este valor para mover la imagen más a la derecha */
+    right: 23px; /* Ajusta este valor para mover la imagen más a la derecha */
 }
 .botom-azul{
 	width: 40%;

@@ -107,43 +107,44 @@ onUpdated(() => {
 			color: #FFFFFF;
 }
 .mensaje3{
-	width: 30%;
+	width: 50%;
 	position: relative;
-            left: 130px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: -450px;  /* Ajusta este valor para mover la imagen verticalmente */
+            left: 100px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -200px;  /* Ajusta este valor para mover la imagen verticalmente */
 			margin: 50px;
 }
 .mensaje4{
-	width: 30%;
+	width: 50%;
 	position: relative;
-	left: 130px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: -640px;  /* Ajusta este valor para mover la imagen verticalmente */
+	left: 100px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -650px;  /* Ajusta este valor para mover la imagen verticalmente */
 			margin: 50px;
 }
 .mensaje5{
-	width: 30%;
+	width: 50%;
 	position: relative;
-            left: 670px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: -1020px;  /* Ajusta este valor para mover la imagen verticalmente */
+	left: 100px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: -730px;  /* Ajusta este valor para mover la imagen verticalmente */
 			margin: 50px;
 }.mensaje6{
-	width: 30%;
+	width: 50%;
 	position: relative;
-            left: 700px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: -1360px;  /* Ajusta este valor para mover la imagen verticalmente */
+	left: 100px; /* Ajusta este valor para mover la imagen horizontalmente */
+	top: -930px;  /* Ajusta este valor para mover la imagen verticalmente */
 			margin: 30px;
 }
 .mensaje7{
-	width: 30%;
+	width: 50%;
 	position: relative;
             left: 430px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: -190px;  /* Ajusta este valor para mover la imagen verticalmente */
+            top: -730px;  /* Ajusta este valor para mover la imagen verticalmente */
 			
 }
 .texto {
-            position: relative;
-			left: 800px; /* Ajusta este valor para mover la imagen horizontalmente */
-            top: -650px;  /* Ajusta este valor para mover la imagen verticalmente */
+	font-size: 14px;
+             position: absolute;
+			left: 700px; /* Ajusta este valor para mover la imagen horizontalmente */
+            top: 230px;  /* Ajusta este valor para mover la imagen verticalmente */
             color: black;
         }
 .texto1{
@@ -172,32 +173,32 @@ onUpdated(() => {
 }
 		.signo {
             position: absolute;
-            top: 8%;
-            left: 78%;/* Ajusta esta distancia según sea necesario */
+            top: 35%;
+            left: 74%;/* Ajusta esta distancia según sea necesario */
             transform: translate(-50%, -50%);
             font-size: 40px; /* Ajusta el tamaño del signo según sea necesario */
             color: #1E90FF;
         }
 		.signo1{
 			position: absolute;
-            top: 16%;
-            left: 78%;/* Ajusta esta distancia según sea necesario */
+            top: 14%;
+            left: 88%;/* Ajusta esta distancia según sea necesario */
             transform: translate(-50%, -50%);
             font-size: 40px; /* Ajusta el tamaño del signo según sea necesario */
             color: #1E90FF;
 		}
 		.signo2{
 			position: absolute;
-            top: 23%;
-            left: 78%;/* Ajusta esta distancia según sea necesario */
+            top: 21%;
+            left: 88%;/* Ajusta esta distancia según sea necesario */
             transform: translate(-50%, -50%);
             font-size: 40px; /* Ajusta el tamaño del signo según sea necesario */
             color: #1E90FF;
 		}
 		.signo3{
 			position: absolute;
-            top: 30%;
-            left: 78%;/* Ajusta esta distancia según sea necesario */
+            top: 29%;
+            left: 87%;/* Ajusta esta distancia según sea necesario */
             transform: translate(-50%, -50%);
             font-size: 40px; /* Ajusta el tamaño del signo según sea necesario */
             color: #1E90FF;
