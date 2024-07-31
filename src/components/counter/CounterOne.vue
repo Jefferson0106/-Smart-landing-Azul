@@ -24,10 +24,10 @@ onUpdated(() => {
 
 
 <template>
-    <div class="achievement-area">
- 		
-      <h2 class="title">¡Regístrate ahora y dale un nuevo enfoque a tu negocio!</h2>
- 	</div>
+   <div>
+  <img src="/assets/img/fondo-footer.png" alt="Fondo de pie de página">
+  <!---h2 class="title">¡Regístrate ahora y dale un nuevo enfoque a tu negocio!</h2> ---->
+</div>
 </template>
 
 
@@ -47,16 +47,25 @@ onUpdated(() => {
 
 
 @media (min-width: 768px) {
-.title {
-	text-align: center;
-            top: 50px;
-            left: 43%;
-            transform: translateX(-50%);
-            color: #FFFFFF; 
-            background-color: transparent;
-            padding: 5px;
-            border-radius: 5px;
-            white-space: nowrap; 
-        }
-      }
+  .container {
+    display: flex; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  /* Texto centrado */
+  .title {
+    position: absolute;
+    top: 10px;
+    left: 50px;
+  
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    white-space: nowrap;
+  }
+}
 </style>

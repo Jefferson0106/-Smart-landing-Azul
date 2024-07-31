@@ -13,8 +13,9 @@ onMounted(async () => {
 </script>
 <template>
 		<div class="single-slide-item">
+            
 		<!---h2 class="title">¡Regístrate ahora y dale un nuevo enfoque a tu negocio!</h2> ------>
-
+        <h2 class="title">¡Regístrate ahora y dale un nuevo enfoque a tu negocio!</h2> 
         <form class="form-overlay">
 			<div class="kimber">
 				<input type="text" id="name" name="name" placeholder="Nombre completo">
@@ -34,7 +35,7 @@ onMounted(async () => {
 @media (max-width: 767px) {
     .form-overlay{ 
         position: absolute;
-            top: 40%;
+            top: 60%;
             left: 50%;
             transform: translate(-50%, -50%);
         background-color: #FFFFFF; /* Fondo semitransparente */
@@ -99,13 +100,23 @@ input[type="submit"] {
     display: table;
     clear: both;
 }
+title {
+	text-align: center;
+            top: 100px;
+            left: 3%;
+            color: #FFFFFF; 
+            background-color: transparent;
+            padding: 5px;
+            border-radius: 5px;
+            white-space: nowrap; 
+        }
         }
 
 
         @media (min-width: 768px) {
             .form-overlay {
             position: absolute;
-            top: 35%;
+            top: 41%;
             left: 50%;
             transform: translate(-50%, -50%);
             background-color: #FFFFFF; /* Fondo semitransparente */
@@ -148,6 +159,18 @@ input[type="submit"] {
 			margin: 0 auto; 
   display: block;
 }
+
+.title {
+	text-align: center;
+            top: -90px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #FFFFFF; 
+            background-color: transparent;
+            padding: 5px;
+            border-radius: 5px;
+            white-space: nowrap; 
+        }
 
 /*.title {
 	text-align: center;
